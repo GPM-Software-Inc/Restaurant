@@ -18,7 +18,11 @@
         </Grid.RowDefinitions>
         <Label Content="Логін: " HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="30" Foreground="Red" ></Label>
         <Label Content="Пароль: " Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Top" FontSize="30" Foreground="Red" ></Label>
-        <TextBox x:Name="ULogin" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Top"  FontSize="30" Foreground="Red" ></TextBox>
-        <PasswordBox x:Name="UPassword" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Top"  FontSize="30" Foreground="Red" ></PasswordBox>
+        <TextBox x:Name="ULogin" MinWidth="10" Grid.Row="0" Grid.Column="1"  FontSize="30" Foreground="Red" FontWeight="Normal" FontFamily="Arial Black" HorizontalContentAlignment="Left" />
+        <PasswordBox x:Name="UPassword"  MinWidth="10" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Top"  FontSize="30" Foreground="Red" ></PasswordBox>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+            <Button>Відміна</Button>
+            <Button>Вхід</Button>
+        </StackPanel>
     </Grid>
 </UserControl>
