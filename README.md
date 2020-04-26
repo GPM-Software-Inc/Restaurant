@@ -53,7 +53,7 @@
 
 - [ ] **Login**
 
-- [ ] **Resgister**
+- [ ] **Register**
 
 - [ ] **Restorants**
 
@@ -64,3 +64,34 @@
 - [ ] **Settings**
 
 ---------------------------------------------
+
+## `Models`  @gpm-software
+
+- User
+- Rule
+- Menu
+- Price
+- Order
+- Import
+- Export
+- Table
+- Executant
+- Task
+
+## `User Controls` 
+
+- Authorize `@ developmentservice`
+- Order `@ HrabV`
+- Settings Application `@ developmentservice`
+- Registration `@ HrabV`
+- Notification `@ developmentservice`
+- Reports `@ HrabV`
+- User Cabinet `@ developmentservice`
+
+
+
+
+
+
+
+
