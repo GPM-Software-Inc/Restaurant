@@ -9,6 +9,5 @@ namespace RestaurantModels.Models
         public int Id { get; set; }
         public int PositionX { get; set; }
         public int PositionY { get; set; }
-        public Rate Rate { get; set; }
     }
 }
