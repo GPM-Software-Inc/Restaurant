@@ -10,8 +10,6 @@ namespace RestaurantModels
         public DbSet<Executant> Executants { get; set; }
         public DbSet<Export> Exports { get; set; }
         public DbSet<Import> Imports { get; set; }
-        public DbSet<Price> Prices { get; set; }
-        public DbSet<Rate> Rates { get; set; }
         public DbSet<Rule> Rules { get; set; }
         public DbSet<Table> Tables { get; set; }
         public DbSet<Notification> Notifications { get; set; }
