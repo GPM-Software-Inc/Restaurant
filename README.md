@@ -77,6 +77,8 @@
 - Table
 - Executant
 - Task
+- Rate
+- Notification
 
 ## `User Controls` 
 
