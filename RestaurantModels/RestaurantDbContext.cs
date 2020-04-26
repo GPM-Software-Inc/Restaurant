@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
 using RestaurantModels.Models;
 namespace RestaurantModels
 {
@@ -18,11 +17,10 @@ namespace RestaurantModels
         public DbSet<Notification> Notifications { get; set; }
         public DbSet<TaskModel> TaskModels { get; set; }
 
-
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseNpgsql("Host=192.168.50.2;Database=Restaurant;Username=postgres;");
+            optionsBuilder.UseNpgsql("Host=192.168.50.2;Database=Restaurant;Username=postgres;Password=2090-=");
         }
     }
 }
