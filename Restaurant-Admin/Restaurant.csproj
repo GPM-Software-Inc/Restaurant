@@ -26,4 +26,8 @@
     <ProjectReference Include="..\RestaurantModels\RestaurantModels.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="UserControls\" />
+  </ItemGroup>
+
 </Project>
