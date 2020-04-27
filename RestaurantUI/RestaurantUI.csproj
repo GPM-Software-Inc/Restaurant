@@ -4,6 +4,11 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
+    <StartupObject>Restaurant.App</StartupObject>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin\Debug\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,11 +21,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\RestaurantModels\RestaurantLibrary.csproj" />
+    <ProjectReference Include="..\RestaurantLibrary\RestaurantLibrary.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="ViewModels\" />
-  </ItemGroup>
+
+
 
 </Project>

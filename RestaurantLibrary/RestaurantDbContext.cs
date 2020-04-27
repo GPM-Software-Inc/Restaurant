@@ -2,7 +2,7 @@
 using RestaurantModels.Models;
 namespace RestaurantModels
 {
-    public class RestaurantDbContext:DbContext
+    public class RestaurantDbContext : DbContext
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Order> Orders { get; set; }
@@ -18,7 +18,7 @@ namespace RestaurantModels
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseNpgsql("Host=rdp.uzservice.in.ua;Database=restorant;Username=postgres;Password=Aa1234567890");
+            optionsBuilder.UseNpgsql("Host=pdb.uzservice.in.ua;Database=restorant;Username=postgres;Password=Aa1234567890");
         }
     }
 }
