@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{D50A8C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{9879D70B-9CD7-4B71-A2BF-BE775048D8D2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantModels", "RestaurantModels\RestaurantModels.csproj", "{28DFD8F2-8502-4A22-89D9-0F982FA9D4FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantLibrary", "RestaurantModels\RestaurantLibrary.csproj", "{28DFD8F2-8502-4A22-89D9-0F982FA9D4FE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restaurant", "Restaurant\Restaurant.csproj", "{4C34157F-D84D-4293-8638-8412CAD5F559}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantUI", "Restaurant\RestaurantUI.csproj", "{4C34157F-D84D-4293-8638-8412CAD5F559}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
