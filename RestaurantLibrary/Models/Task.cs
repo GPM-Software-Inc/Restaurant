@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace RestaurantModels.Models
+namespace RestaurantLibrary.Models
 {
     public class Task
     {

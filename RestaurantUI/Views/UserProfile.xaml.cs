@@ -5,9 +5,9 @@ namespace Restaurant.Controls
     /// <summary>
     /// Interaction logic for ControlUserProfile.xaml
     /// </summary>
-    public partial class ControlUserProfile : UserControl
+    public partial class UserProfile : UserControl
     {
-        public ControlUserProfile()
+        public UserProfile()
         {
             InitializeComponent();
         }

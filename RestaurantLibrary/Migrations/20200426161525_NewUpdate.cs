@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
-namespace RestaurantModels.Migrations
+namespace RestaurantLibrary.Migrations
 {
     public partial class NewUpdate : Migration
     {

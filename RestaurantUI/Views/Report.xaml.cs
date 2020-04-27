@@ -5,9 +5,9 @@ namespace Restaurant.Controls
     /// <summary>
     /// Interaction logic for ControlReports.xaml
     /// </summary>
-    public partial class ControlReports : UserControl
+    public partial class Reports : UserControl
     {
-        public ControlReports()
+        public Reports()
         {
             InitializeComponent();
         }

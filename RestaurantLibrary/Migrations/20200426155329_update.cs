@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace RestaurantModels.Migrations
+namespace RestaurantLibrary.Migrations
 {
     public partial class update : Migration
     {

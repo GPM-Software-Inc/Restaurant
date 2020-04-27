@@ -5,9 +5,9 @@ namespace Restaurant.Controls
     /// <summary>
     /// Interaction logic for ControlNavigation.xaml
     /// </summary>
-    public partial class ControlNavigation : UserControl
+    public partial class Navigation : UserControl
     {
-        public ControlNavigation()
+        public Navigation()
         {
             InitializeComponent();
         }

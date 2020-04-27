@@ -5,9 +5,9 @@ namespace Restaurant.Controls
     /// <summary>
     /// Interaction logic for ControlOrderList.xaml
     /// </summary>
-    public partial class ControlOrderList : UserControl
+    public partial class OrderList : UserControl
     {
-        public ControlOrderList()
+        public OrderList()
         {
             InitializeComponent();
         }

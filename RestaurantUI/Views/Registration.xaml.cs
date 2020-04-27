@@ -6,9 +6,9 @@ namespace Restaurant.Controls
     /// <summary>
     /// Interaction logic for ControlRegistration.xaml
     /// </summary>
-    public partial class ControlRegistration : UserControl
+    public partial class Registration : UserControl
     {
-        public ControlRegistration()
+        public Registration()
         {
             InitializeComponent();
         }

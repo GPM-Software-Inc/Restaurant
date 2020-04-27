@@ -5,9 +5,9 @@ namespace Restaurant.Controls
     /// <summary>
     /// Interaction logic for ControlTask.xaml
     /// </summary>
-    public partial class ControlTask : UserControl
+    public partial class Task : UserControl
     {
-        public ControlTask()
+        public Task()
         {
             InitializeComponent();
         }

@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="Restaurant.Controls.ControlRegistration"
+﻿<UserControl x:Class="Restaurant.Controls.Registration"
             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -98,12 +98,12 @@
                  Height="30"
                  materialDesign:ButtonAssist.CornerRadius="5"
                  ToolTip="MaterialDesignRaisedLightButton with Round Corners">
-                    <TextBlock Text="Save" />
+                        <TextBlock Text="Save" />
                     </Button>
                 </Grid>
                 <Grid Grid.Column="1"
                 Width="100">
-                <Button x:Name="Cancel" Click="Cancel_Click"
+                    <Button x:Name="Cancel" Click="Cancel_Click"
                 Background="AntiqueWhite" Foreground="Black"
                 Height="30"
                 materialDesign:ButtonAssist.CornerRadius="5"

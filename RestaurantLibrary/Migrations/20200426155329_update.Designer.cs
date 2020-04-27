@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using RestaurantModels;
+using RestaurantLibrary;
 
-namespace RestaurantModels.Migrations
+namespace RestaurantLibrary.Migrations
 {
     [DbContext(typeof(RestaurantDbContext))]
     [Migration("20200426155329_update")]

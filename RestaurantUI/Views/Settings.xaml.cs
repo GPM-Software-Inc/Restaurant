@@ -5,9 +5,9 @@ namespace Restaurant.Controls
     /// <summary>
     /// Interaction logic for ControlSettings.xaml
     /// </summary>
-    public partial class ControlSettings : UserControl
+    public partial class Settings : UserControl
     {
-        public ControlSettings()
+        public Settings()
         {
             InitializeComponent();
         }

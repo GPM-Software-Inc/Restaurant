@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace RestaurantModels.Models
+namespace RestaurantLibrary.Models
 {
     public class Menu
     {

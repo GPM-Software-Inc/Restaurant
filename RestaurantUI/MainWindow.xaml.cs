@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using Restaurant.Controls;
+using System.Windows;
 
 namespace Restaurant
 {
@@ -10,6 +11,7 @@ namespace Restaurant
         public MainWindow()
         {
             InitializeComponent();
+
         }
     }
 }
