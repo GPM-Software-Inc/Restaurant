@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Restaurant_Admin</RootNamespace>
+    <RootNamespace>Restaurant</RootNamespace>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 

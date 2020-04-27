@@ -13,7 +13,7 @@ namespace RestaurantModels
         public DbSet<Rule> Rules { get; set; }
         public DbSet<Table> Tables { get; set; }
         public DbSet<Notification> Notifications { get; set; }
-        public DbSet<TaskModel> TaskModels { get; set; }
+        public DbSet<Task> TaskModels { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
