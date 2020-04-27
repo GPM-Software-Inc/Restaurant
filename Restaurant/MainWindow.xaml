@@ -8,7 +8,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <c:ControlAutorize></c:ControlAutorize>
+      <!--  <c:ControlAutorize></c:ControlAutorize>-->
+      <!--  <c:ControlRegistration/> -->
 
     </Grid>
 </Window>
