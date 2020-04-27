@@ -18,7 +18,7 @@ namespace RestaurantModels
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseNpgsql("Host=192.168.50.2;Database=Restaurant;Username=postgres;Password=2090-=");
+            optionsBuilder.UseNpgsql("Host=rdp.uzservice.in.ua;Database=restorant;Username=postgres;Password=Aa1234567890");
         }
     }
 }
