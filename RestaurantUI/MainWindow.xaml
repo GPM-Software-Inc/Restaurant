@@ -7,7 +7,9 @@
         xmlns:local="clr-namespace:Restaurant"
         mc:Ignorable="d"
         Title="Restorant" Height="450" Width="800">
+
     <Grid>
-        <c:Autorize></c:Autorize>
+        <c:Autorize x:Name="UIAutorize" Visibility="Visible"/>
+        <c:Registration x:Name="UIRegistration" Visibility="Hidden"/>
     </Grid>
 </Window>

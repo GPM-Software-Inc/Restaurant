@@ -1,5 +1,6 @@
 ﻿using Restaurant.Controls;
 using System.Windows;
+using System.Windows.Controls;
 
 namespace Restaurant
 {
@@ -11,7 +12,16 @@ namespace Restaurant
         public MainWindow()
         {
             InitializeComponent();
+        }
 
+        public static void ShowControl(UserControl userControl)
+        {
+            userControl.Visibility = Visibility.Visible;
+        }
+
+        public static void HideControl(UserControl userControl)
+        {
+            userControl.Visibility = Visibility.Hidden;
         }
     }
 }
