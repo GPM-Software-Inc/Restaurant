@@ -9,7 +9,8 @@
         Title="Restorant" Height="450" Width="800">
 
     <Grid>
-        <c:Autorize x:Name="UIAutorize" Visibility="Visible"/>
-        <c:Registration x:Name="UIRegistration" Visibility="Hidden"/>
+        <ContentControl x:Name="ActiveItem" Content="Autorize">
+
+        </ContentControl>
     </Grid>
 </Window>

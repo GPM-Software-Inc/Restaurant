@@ -1,4 +1,5 @@
 ﻿using RestaurantUI.ViewModels;
+using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -16,12 +17,12 @@ namespace Restaurant.Controls
 
         private void Button_LogIn_Click(object sender, System.Windows.RoutedEventArgs e)
         {
-            AutorizeViewModel.FindUser(UIEmail.Text, UIPassword.Password);
+            //AutorizeViewModel.FindUser(UIEmail.Text, UIPassword.Password);
         }
 
         private void Button_Registration_Click(object sender, System.Windows.RoutedEventArgs e)
         {
-            MessageBox.Show("Реєстрація");
+            MainWindowViewModel.ShowControl(new Registration());
         }
     }
 }
